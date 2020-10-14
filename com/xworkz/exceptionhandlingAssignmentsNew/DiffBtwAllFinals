@@ -1,0 +1,16 @@
+1)final
+a)Final is used to apply restrictions on class, method and variable. 
+  Final class can't be inherited, final method can't be overridden and final variable value can't be changed.
+b)final(lower_case) is a reserved keyword in java. 
+c)We can’t use it as an identifier as it is reserved. 
+d)The final keyword in java has different meaning depending upon it is applied to variable, class or method.
+
+2)finally
+a)Just as final is a reserved keyword, so in same way finally is also a reserved keyword in java i.e, we can’t use it as an identifier. 
+b)The finally keyword is used in association with a try/catch block and guarantees that a section of code will be executed, even if an exception is thrown. 
+c)The finally block will be executed after the try and catch blocks, but before control transfers back to its origin.
+
+3)finalize
+a)It is a method that the Garbage Collector always calls just before the deletion/destroying the object which is eligible for Garbage Collection, so as to perform clean-up activity. 
+b)Clean-up activity means closing the resources associated with that object like Database Connection, Network Connection or we can say resource de-allocation. 
+c)Remember it is not a reserved keyword.
