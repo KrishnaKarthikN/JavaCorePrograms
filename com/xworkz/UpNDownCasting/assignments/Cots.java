@@ -29,7 +29,7 @@ public class Cots extends RoyalOak{
 	public void setHydraulic(boolean ishydraulic) {
 		this.ishydraulic = ishydraulic;
 	}
-	
+	@Override
 	void displayDetails() {
 		System.out.println("Brand : "+ getBrand() + "; Size Type : " + getSizeType() + "; Price : " + getPrice() +"; Weight In Kgs : "+ weight + "; Hydraulic " + ishydraulic );
 	}
