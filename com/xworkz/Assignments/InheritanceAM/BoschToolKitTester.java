@@ -10,6 +10,7 @@ public class BoschToolKitTester {
 		System.out.println("Brand : " + boschToolKit.brand);
 		System.out.println("Price : " + boschToolKit.price);
 		//boschToolKit.hasScrewBits();//The method hasScrewBits() from the type ToolKit is not visible
+		boschToolKit.hammerDrill();
 		boschToolKit.hasAllenKeys();
 		boschToolKit.hasSpiritLevel();
 		
