@@ -19,3 +19,10 @@ public class BoschToolKitTester {
 	}
 	
 }
+/*Output : 
+Brand : Bosch
+Price : 4749.0
+Advanced 550W 10mm Hammer Drill
+kit Contains Allen keys
+Advanced Spirit-Level Measurement tools and Measuring Tapes.
+*/
