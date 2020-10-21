@@ -7,7 +7,10 @@ public class BoschToolKit extends ToolKit{
 //	void hasScrewBits(){
 //		       //The method hasScrewBits() of type BoschToolKit must override or implement a supertype method                                       
 //	}
-	
+	@Override
+	void hammerDrill(){
+		System.out.println("Advanced 550W 10mm Hammer Drill");
+	}
 	
 //	@Override
 //	public void hasAllenkeys() {
