@@ -10,7 +10,10 @@ public class NoArgFITester {
 			return s;
 			};
 			noArgFI.printHello();
-		
+		//Single liners
+		//NoArgI noArgFI1 = ()->"Hello World";
+		//System.out.println(noArgFI1.printHello());
+					
 		
 	}
 
