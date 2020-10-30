@@ -4,8 +4,8 @@ public class UppercaseToEnd {
 
 	public static String upperEnd(String str) {
 		int length = str.length();
-		String a="";//a be  characters
-		String b = "";//b be upper characters
+		String a="";//a be upper characters
+		String b = "";//b be lower characters
 		for (int i=0;i<length;i++) {
 			char c = str.charAt(i);
 			if(c >= 'A' && c <= 'Z') {
